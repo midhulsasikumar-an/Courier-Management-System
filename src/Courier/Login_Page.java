@@ -103,15 +103,6 @@ public class Login_Page extends JFrame {
             }
         });
         contentPane.add(btnCreateAccount);
-        
-        JButton btnNewButton = new JButton("New button");
-        btnNewButton.addActionListener(new ActionListener() {
-        	public void actionPerformed(ActionEvent e) {
-        		contentPane.setBackground(new Color(128, 255, 0));
-        	}
-        });
-        btnNewButton.setBounds(291, 176, 84, 20);
-        contentPane.add(btnNewButton);
     }
 
     /**

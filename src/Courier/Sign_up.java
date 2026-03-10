@@ -123,7 +123,7 @@ public class Sign_up extends JFrame {
             int rows = ps.executeUpdate();
             if (rows > 0) {
                 javax.swing.JOptionPane.showMessageDialog(this, "Account Created Successfully!");
-                dashboard frame = new dashboard();
+                HOME frame = new HOME();
                 frame.setVisible(true);
                 dispose();
             }else {
